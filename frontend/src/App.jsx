@@ -12,7 +12,7 @@ function App() {
         setClientes(data.value || []);
       })
       .catch((error) => {
-        console.error("Error cargando clientes:", error);
+        console.error("Error cargando clientess:", error);
       });
   }, []);
 
